@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>ZwYu&#39;s Blog</title>
+  <title>zwYu&#39;s Blog</title>
   
-  <subtitle>A Notebook by ZwYu</subtitle>
+  <subtitle>A Notebook by zwYu</subtitle>
   <link href="https://zw-yu.github.io/atom.xml" rel="self"/>
   
   <link href="https://zw-yu.github.io/"/>

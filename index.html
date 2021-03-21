@@ -28,9 +28,9 @@
 
   <meta name="description" content="记录分享 学习心得">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ZwYu&#39;s Blog">
+<meta property="og:title" content="zwYu&#39;s Blog">
 <meta property="og:url" content="https://zw-yu.github.io/index.html">
-<meta property="og:site_name" content="ZwYu&#39;s Blog">
+<meta property="og:site_name" content="zwYu&#39;s Blog">
 <meta property="og:description" content="记录分享 学习心得">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="伯约">
@@ -49,7 +49,7 @@
   };
 </script>
 
-  <title>ZwYu's Blog</title>
+  <title>zwYu's Blog</title>
   
 
 
@@ -80,7 +80,7 @@
   </style>
 </noscript>
 
-<link rel="alternate" href="/atom.xml" title="ZwYu's Blog" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="zwYu's Blog" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -101,10 +101,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">ZwYu's Blog</h1>
+      <h1 class="site-title">zwYu's Blog</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">A Notebook by ZwYu</p>
+      <p class="site-subtitle" itemprop="description">A Notebook by zwYu</p>
   </div>
 
   <div class="site-nav-right">
@@ -203,7 +203,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ZwYu's Blog">
+      <meta itemprop="name" content="zwYu's Blog">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -221,7 +221,21 @@
               <time title="创建时间：2021-03-05 09:25:59" itemprop="dateCreated datePublished" datetime="2021-03-05T09:25:59+08:00">2021-03-05</time>
             </span>
 
-          <br>
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/03/05/article0/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/03/05/article0/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -274,7 +288,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ZwYu's Blog">
+      <meta itemprop="name" content="zwYu's Blog">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -292,7 +306,21 @@
               <time title="创建时间：2021-01-28 12:14:30" itemprop="dateCreated datePublished" datetime="2021-01-28T12:14:30+08:00">2021-01-28</time>
             </span>
 
-          <br>
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/01/28/hello-world/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/01/28/hello-world/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -567,6 +595,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : '0O3bgrgqPfkLvChalvNJYns8-9Nh9j0Va',
+      appKey     : 'SkzfwUt2Cmt6hqpW3dXjS8AA',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 
 
