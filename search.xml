@@ -1,8 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>article0</title>
+    <title>Linux C++学习路线</title>
     <url>/2021/03/05/article0/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><h4 id="C-基础"><a href="#C-基础" class="headerlink" title="C++基础"></a>C++基础</h4><ul>
+<li><p>《C++ Primer》第五版 <br><br>C语言基础（主要为指针部分）：</p>
+</li>
+<li><p>《C和指针》《C陷阱与缺陷》《C专家编程》</p>
+<h4 id="C-进阶"><a href="#C-进阶" class="headerlink" title="C++进阶"></a>C++进阶</h4></li>
+<li><p>《Effective C++》 《More Effective C++》 《Effective STL》</p>
+</li>
+<li><p>《STL源码剖析》 《深度探索C++对象模型》<br><br>以上书籍搭配侯捷老师的视频一起食用：</p>
+</li>
+<li><p>C++标准11-14</p>
+</li>
+<li><p>C++内存管理</p>
+</li>
+<li><p>STL和泛型编程</p>
+</li>
+<li><p>C++面向对象高级开发</p>
+</li>
+<li><p>程序的生前死后</p>
+</li>
+</ul>
+<h4 id="课程"><a href="#课程" class="headerlink" title="课程"></a>课程</h4><p>   侯捷老师的视频在B站即可搜到，亦可在网盘提取：<br>   链接：<a href="https://pan.baidu.com/s/1bGJ602SlDr3r_aGDtk978g">https://pan.baidu.com/s/1bGJ602SlDr3r_aGDtk978g</a><br>   提取码：o1vu</p>
+<h2 id="数据结构与算法"><a href="#数据结构与算法" class="headerlink" title="数据结构与算法"></a>数据结构与算法</h2><h4 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>《数据结构与算法分析：c++描述》</li>
+<li>《剑指offer》</li>
+<li>《编程珠玑》《编程之美》</li>
+<li>《程序员代码面试指南：IT名企算法与数据结构题目最优解(第2版)》</li>
+<li>《算法》第四版</li>
+</ul>
+<h4 id="课程-1"><a href="#课程-1" class="headerlink" title="课程"></a>课程</h4><p>  配合浙江大学陈越姥姥的视频学习更佳：<a href="https://www.icourse163.org/course/zju-93001">https://www.icourse163.org/course/zju-93001</a> <br><br>  突击面试的话可以看左程云的视频：<a href="https://www.bilibili.com/video/BV15D4y1X7Tt?p=1">https://www.bilibili.com/video/BV15D4y1X7Tt?p=1</a> <br><br>  另外，极客时间王争的《数据结构与算法之美》也挺不错</p>
+<h4 id="算法练习"><a href="#算法练习" class="headerlink" title="算法练习"></a>算法练习</h4><ul>
+<li>labuladong的算法小抄<br> 链接：<a href="https://pan.baidu.com/s/1AYb07fWDDtLrkbUcYuHqNw">https://pan.baidu.com/s/1AYb07fWDDtLrkbUcYuHqNw</a><br> 提取码：7utf </li>
+<li>leetcode刷题手册<br> 链接：<a href="https://pan.baidu.com/s/1WCu0j2pPX6brzAUCnvsnZQ">https://pan.baidu.com/s/1WCu0j2pPX6brzAUCnvsnZQ</a><br> 提取码：vwvi </li>
+<li>leetcode101<br> 链接：<a href="https://pan.baidu.com/s/1t8QsivvesCCBfNu2O3urJA">https://pan.baidu.com/s/1t8QsivvesCCBfNu2O3urJA</a><br> 提取码：bgtv </li>
+</ul>
+<h2 id="计算机组成原理"><a href="#计算机组成原理" class="headerlink" title="计算机组成原理"></a>计算机组成原理</h2><h4 id="书籍-1"><a href="#书籍-1" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li><p>《计算机组成与设计-硬件软件接口》</p>
+<h4 id="课程-2"><a href="#课程-2" class="headerlink" title="课程"></a>课程</h4><p> 推荐哈工大的mooc课程： <a href="https://www.icourse163.org/course/hit-309001">https://www.icourse163.org/course/hit-309001</a></p>
+</li>
+</ul>
+<h2 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h2><h4 id="书籍-2"><a href="#书籍-2" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li><p>《操作系统真象还原》</p>
+</li>
+<li><p>《操作系统导论》</p>
+</li>
+<li><p>《Linux内核设计与实现》</p>
+</li>
+<li><p>《现代操作系统》（以该课本为主) </p>
+<h4 id="课程-3"><a href="#课程-3" class="headerlink" title="课程"></a>课程</h4></li>
+<li><p>清华学堂在线课程：<a href="https://www.bilibili.com/video/BV1uW411f72n?from=search&amp;seid=11799294493335713274">https://www.bilibili.com/video/BV1uW411f72n?from=search&amp;seid=11799294493335713274</a>  <br></p>
+</li>
+<li><p>哈工大mooc课程：<a href="https://m.bilibili.com/video/BV1d4411v7u7?from=search&amp;seid=2361361014547524697">https://m.bilibili.com/video/BV1d4411v7u7?from=search&amp;seid=2361361014547524697</a>  <br></p>
+</li>
+<li><p>MIT 6.828（现已改名6.S081）：<a href="https://www.bilibili.com/video/BV1px411E7ST">https://www.bilibili.com/video/BV1px411E7ST</a> </p>
+<pre><code>    课程主页： https://pdos.csail.mit.edu/6.828/2020/index.html
+</code></pre>
+</li>
+<li><p>MIT 6.824 Distributed System</p>
+<h2 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h2></li>
+</ul>
+<h4 id="书籍-3"><a href="#书籍-3" class="headerlink" title="书籍"></a>书籍</h4><h5 id="入门："><a href="#入门：" class="headerlink" title="入门："></a>入门：</h5><ul>
+<li><p>《图解HTTP》</p>
+</li>
+<li><p>《网络是怎样连接的》</p>
+<h5 id="进阶："><a href="#进阶：" class="headerlink" title="进阶："></a>进阶：</h5></li>
+<li><p>《计算机网络-自顶向下方法》</p>
+</li>
+<li><p>《TCP/IP详解-卷一》</p>
+<h4 id="课程-4"><a href="#课程-4" class="headerlink" title="课程"></a>课程</h4></li>
+<li><p>哈工大mooc课程：<a href="https://www.bilibili.com/video/BV1Up411Z7hC?from=search&amp;seid=17543776603537883182">https://www.bilibili.com/video/BV1Up411Z7hC?from=search&amp;seid=17543776603537883182</a> </p>
+</li>
+<li><p>若想写tcp、udp，可参考CS144： <a href="https://cs144.github.io/">https://cs144.github.io/</a></p>
+</li>
+</ul>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h4 id="书籍-4"><a href="#书籍-4" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li><p>《MySQL必知必会》</p>
+</li>
+<li><p>《高性能MySQL》</p>
+</li>
+<li><p>《MySQL技术内幕》</p>
+</li>
+<li><p>《MySQL技术内幕 InnoDB存储引擎》</p>
+</li>
+<li><p>《数据库系统概念》（最全）</p>
+<h4 id="课程-5"><a href="#课程-5" class="headerlink" title="课程"></a>课程</h4></li>
+<li><p>哈工大mooc课程： <a href="https://www.bilibili.com/video/av70279349/">https://www.bilibili.com/video/av70279349/</a></p>
+</li>
+<li><p>MIT 6.830 Database Systems </p>
+</li>
+<li><p>学习Redis： <a href="https://www.bilibili.com/video/BV1S54y1R7SB?p=1">https://www.bilibili.com/video/BV1S54y1R7SB?p=1</a></p>
+</li>
+</ul>
+<h2 id="网络编程"><a href="#网络编程" class="headerlink" title="网络编程"></a>网络编程</h2><h4 id="书籍-5"><a href="#书籍-5" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li><p>游双《Linux高性能服务端编程》</p>
+</li>
+<li><p>陈硕《Linux多线程服务器端编程：使用 muduo C++ 网络库》</p>
+</li>
+<li><p>《鸟哥的Linux私房菜基础篇》</p>
+</li>
+<li><p>《UNIX环境高级编程》（APUE） 重点章节：3,4,5,7,8,10,11,12</p>
+</li>
+<li><p>《UNIX网络编程》（UNP）（socket编程，进程间通信） 前面8章及11，14，16，26。整个书只看 TCP/UDP</p>
+<h4 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h4></li>
+<li><p>网络编程实践： <a href="https://www.bilibili.com/video/BV1LN411d7Jp?from=search&amp;seid=3547831041679850593">https://www.bilibili.com/video/BV1LN411d7Jp?from=search&amp;seid=3547831041679850593</a></p>
+<h2 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h2></li>
+<li><p>B站《计算机科学速成课》《计算机教育中缺失的一课》</p>
+<h5 id="计算机系统学习："><a href="#计算机系统学习：" class="headerlink" title="计算机系统学习："></a>计算机系统学习：</h5></li>
+<li><p>《程序员自我修养》</p>
+</li>
+<li><p>《深入理解计算机系统》，配合南京大学mooc《计算机系统基础》</p>
+</li>
+<li><p>图解网络<br>链接：<a href="https://pan.baidu.com/s/1nXnuP0Ve8XwSbm1r9eMFpQ">https://pan.baidu.com/s/1nXnuP0Ve8XwSbm1r9eMFpQ</a><br>提取码：mbab  </p>
+</li>
+<li><p>图解系统<br>链接：<a href="https://pan.baidu.com/s/12BJSK-woNnI0DhWXoBcesw">https://pan.baidu.com/s/12BJSK-woNnI0DhWXoBcesw</a><br>提取码：tv1v </p>
+</li>
+<li><p>后台高性能、高并发设计指南：<a href="https://zhuanlan.zhihu.com/p/322464806">https://zhuanlan.zhihu.com/p/322464806</a></p>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><h4 id="编译调试工具"><a href="#编译调试工具" class="headerlink" title="编译调试工具"></a>编译调试工具</h4><p>编译/调试工具：GCC，Linux平台上的GDB调试工具</p>
+<h4 id="阅读材料"><a href="#阅读材料" class="headerlink" title="阅读材料"></a>阅读材料</h4></li>
+<li><p>GNU官网关于 GCC和 GDB的文档</p>
+</li>
+<li><p>《debuging with gdb》（中文版）</p>
+</li>
+<li><p>陈皓《跟我一起写makefile》</p>
+</li>
+<li><p>B站《计算机教育中缺失的一课》<br><br>课程地址：<a href="https://missing-semester-cn.github.io/?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=1185621192587878400">https://missing-semester-cn.github.io/?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=1185621192587878400</a></p>
+</li>
+</ul>
+<h2 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h2><ul>
+<li>写一个Json库 <a href="https://github.com/miloyip/json-tutorial/blob/master/tutorial01/tutorial01.md">https://github.com/miloyip/json-tutorial/blob/master/tutorial01/tutorial01.md</a></li>
+<li>写一个红黑树 <a href="https://github.com/william-zk/RB_Tree">https://github.com/william-zk/RB_Tree</a></li>
+<li>写一个STL <a href="https://github.com/Alinshans/MyTinySTL">https://github.com/Alinshans/MyTinySTL</a></li>
+<li>写一个NoSQL <a href="https://www.lanqiao.cn/courses/1341">https://www.lanqiao.cn/courses/1341</a></li>
+<li>写一个高并发内存池 <a href="https://blog.csdn.net/qq_41562665/article/details/90546750">https://blog.csdn.net/qq_41562665/article/details/90546750</a></li>
+<li>写一个线程库 <a href="https://github.com/Winnerhust/uthread">https://github.com/Winnerhust/uthread</a></li>
+<li>写一个网络库 <a href="https://github.com/chenshuaihao/NetServer">https://github.com/chenshuaihao/NetServer</a></li>
+<li>写一个服务器框架 <a href="https://www.bilibili.com/video/av53602631?from=search&amp;seid=9029288577396826503">https://www.bilibili.com/video/av53602631?from=search&amp;seid=9029288577396826503</a></li>
+<li>写一个WebServer <a href="https://github.com/linyacool/WebServer">https://github.com/linyacool/WebServer</a><br>可参考《Linux高性能服务器编程》，陈硕《Linux多线程服务器端编程》</li>
+<li>写一个操作系统内核 <a href="https://github.com/woai3c/MIT6.828">https://github.com/woai3c/MIT6.828</a><br>已改名：6.S081 <a href="https://pdos.csail.mit.edu/6.828/2020/index.html">https://pdos.csail.mit.edu/6.828/2020/index.html</a></li>
+<li>Webbench <a href="http://home.tiscali.cz/~cz210552/webbench.html">http://home.tiscali.cz/~cz210552/webbench.html</a></li>
+<li>Lightweight Web Server <a href="https://github.com/imarvinle/WebServer">https://github.com/imarvinle/WebServer</a> ，<a href="https://github.com/linyacool/WebServer">https://github.com/linyacool/WebServer</a></li>
+<li>Libjson <a href="https://sourceforge.net/projects/libjson/">https://sourceforge.net/projects/libjson/</a></li>
+<li>Leveldb <a href="https://github.com/google/leveldb">https://github.com/google/leveldb</a></li>
+<li>rest_rpc <a href="https://github.com/qicosmos/rest_rpc">https://github.com/qicosmos/rest_rpc</a></li>
+</ul>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>后台服务器开发学习路线 <a href="https://mp.weixin.qq.com/s/7xANFCFUd528Lch3lqcbRg">https://mp.weixin.qq.com/s/7xANFCFUd528Lch3lqcbRg</a></li>
+<li>看书小建议 <a href="https://mp.weixin.qq.com/s/nfnN0TWIsuIPgXeSSKze5A">https://mp.weixin.qq.com/s/nfnN0TWIsuIPgXeSSKze5A</a></li>
+<li>编程能力 <a href="https://mp.weixin.qq.com/s/uq67R4jHpYkbMUQqIBgpHA">https://mp.weixin.qq.com/s/uq67R4jHpYkbMUQqIBgpHA</a></li>
+<li>大三计算机专业学生怎么找实习？<a href="https://www.zhihu.com/question/28098063/answer/691700685">https://www.zhihu.com/question/28098063/answer/691700685</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>学习路线</tag>
+        <tag>Linux</tag>
+        <tag>C++</tag>
+      </tags>
   </entry>
 </search>
