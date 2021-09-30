@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>分类</title>
-    <url>/2021/01/29/index/</url>
-    <content><![CDATA[<ul>
-<li>计算机</li>
-<li>工具</li>
-<li>读书</li>
-<li>随笔</li>
-</ul>
+    <title>我的大学</title>
+    <url>/2021/09/30/first/</url>
+    <content><![CDATA[<h1 id="我的大学"><a href="#我的大学" class="headerlink" title="我的大学"></a>我的大学</h1><p>大学前一年半</p>
 ]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>心路历程</tag>
+      </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="https://zw-yu.github.io/atom.xml" rel="self"/>
   
   <link href="https://zw-yu.github.io/"/>
-  <updated>2021-05-24T03:23:10.313Z</updated>
+  <updated>2021-09-30T14:48:36.292Z</updated>
   <id>https://zw-yu.github.io/</id>
   
   <author>
@@ -17,28 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>分类</title>
-    <link href="https://zw-yu.github.io/2021/01/29/index/"/>
-    <id>https://zw-yu.github.io/2021/01/29/index/</id>
-    <published>2021-01-29T06:41:34.000Z</published>
-    <updated>2021-05-24T03:23:10.313Z</updated>
+    <title>我的大学</title>
+    <link href="https://zw-yu.github.io/2021/09/30/first/"/>
+    <id>https://zw-yu.github.io/2021/09/30/first/</id>
+    <published>2021-09-30T14:41:48.000Z</published>
+    <updated>2021-09-30T14:48:36.292Z</updated>
     
-    <content type="html"><![CDATA[<ul><li>计算机</li><li>工具</li><li>读书</li><li>随笔</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="我的大学"><a href="#我的大学" class="headerlink" title="我的大学"></a>我的大学</h1><p>大学前一年半</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;计算机&lt;/li&gt;
-&lt;li&gt;工具&lt;/li&gt;
-&lt;li&gt;读书&lt;/li&gt;
-&lt;li&gt;随笔&lt;/li&gt;
-&lt;/ul&gt;
+    <summary type="html">&lt;h1 id=&quot;我的大学&quot;&gt;&lt;a href=&quot;#我的大学&quot; class=&quot;headerlink&quot; title=&quot;我的大学&quot;&gt;&lt;/a&gt;我的大学&lt;/h1&gt;&lt;p&gt;大学前一年半&lt;/p&gt;
 </summary>
       
     
     
     
+    <category term="随笔" scheme="https://zw-yu.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="大学" scheme="https://zw-yu.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="心路历程" scheme="https://zw-yu.github.io/tags/%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/"/>
     
   </entry>
   
