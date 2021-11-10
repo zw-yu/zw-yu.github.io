@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的大学</title>
+    <title>set、map、priority_queue自定义比较函数</title>
     <url>/2021/09/30/first/</url>
-    <content><![CDATA[<h1 id="我的大学"><a href="#我的大学" class="headerlink" title="我的大学"></a>我的大学</h1><p>大学前一年半</p>
+    <content><![CDATA[<p>set、map容器采用红黑树（平衡二叉搜索树）实现。<br>在定义容器时，如果没有指定比较函数，那么采用默认的比较函数，即按键值由小到大的顺序插入元素。而在很多情况下，需要自定义比较函数。</p>
+<p>方法1： 如果元素不是结构体，那么，可以编写比较函数。<br>      其中，”&lt;”为从大到小排列，”&gt;”从小到大排列。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;按键值由小到大插入元素</span><br><span class="line">&#x2F;&#x2F;元素不是结构体</span><br><span class="line">#include&lt;set&gt; </span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;自定义比较函数myComp(),重载&quot;()&quot;操作符</span><br><span class="line"></span><br><span class="line">struct myComp</span><br><span class="line">&#123;</span><br><span class="line">    bool operator()(const int&amp; a, const int&amp; b)&#123;</span><br><span class="line">        if(a!&#x3D;b) return a&gt;b;</span><br><span class="line">        else return a&gt;b;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">int main(int argc, int **argv)&#123;</span><br><span class="line">    set&lt;int,myComp&gt; s;</span><br><span class="line">    s.insert(8);</span><br><span class="line">    s.insert(1);</span><br><span class="line">    s.insert(12);</span><br><span class="line">    s.insert(6);</span><br><span class="line">    s.insert(8); &#x2F;&#x2F;8重复，不会插入</span><br><span class="line">    set&lt;int,myComp&gt;::iterator it;</span><br><span class="line">    for(it&#x3D;s.begin();it!&#x3D;s.end();++it)&#123;</span><br><span class="line">        cout&lt;&lt;*it&lt;&lt;&quot; &quot;;     &#x2F;&#x2F;输出 12 8 6 1</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;endl;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>方法2： 如果元素为结构体，把比较函数写进结构体内</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">struct Info</span><br><span class="line">&#123;</span><br><span class="line">    string name;</span><br><span class="line">    float score;</span><br><span class="line">    &#x2F;&#x2F;score由大到小排列。若要由小到大排列，使用&gt;即可</span><br><span class="line">    bool operator &lt; (const Info &amp; a) const&#123;</span><br><span class="line">        return a.score&lt;score;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">int main(int argc, int **argv)&#123;</span><br><span class="line">    set&lt;Info&gt; s;</span><br><span class="line">    Info info;</span><br><span class="line">    info.name&#x3D;&quot;Jack&quot;;</span><br><span class="line">    info.score&#x3D;80.5;</span><br><span class="line">    s.insert(info);</span><br><span class="line">    info.name&#x3D;&quot;Tomi&quot;;</span><br><span class="line">    info.score&#x3D;20.5;</span><br><span class="line">    s.insert(info);</span><br><span class="line">    info.name&#x3D;&quot;Nacy&quot;;</span><br><span class="line">    info.score&#x3D;60.5;</span><br><span class="line">    s.insert(info);</span><br><span class="line">    set&lt;Info&gt;::iterator it;</span><br><span class="line">    for(it&#x3D;s.begin();it!&#x3D;s.end();++it)&#123;</span><br><span class="line">        cout&lt;&lt;(*it).name&lt;&lt;&quot; : &quot;&lt;&lt;(*it).score&lt;&lt;endl;</span><br><span class="line">        &#x2F;&#x2F;Jack : 80.5</span><br><span class="line">        &#x2F;&#x2F;Nacy : 60.5</span><br><span class="line">        &#x2F;&#x2F;Tomi : 20.5</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>优先级队列的自定义比较函数也类似，”&gt;”为小顶堆，”&lt;”为大顶堆。使用时：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">priority_queue&lt;int,vector&lt;int&gt;,myComp&gt; pq;</span><br></pre></td></tr></table></figure>
+
+
 ]]></content>
       <categories>
-        <category>随笔</category>
+        <category>计算机</category>
       </categories>
       <tags>
-        <tag>大学</tag>
-        <tag>心路历程</tag>
+        <tag>数据结构</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
 </search>
